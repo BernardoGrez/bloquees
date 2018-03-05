@@ -1,0 +1,159 @@
+body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+
+  span{
+    color: red;
+  }
+
+  a{
+    color: red;
+    font-size: 1.8em;
+    font-family: 'Anton', sans-serif;
+  }
+
+  h3{
+    font-size: 4em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Fredericka the Great', cursive;
+    display: flex;
+    align-items: flex-end;
+  
+  }
+
+h5{
+    font-size: 9em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Fredericka the Great', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+  h4{
+    font-size: 1em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Fredericka the Great', cursive;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  
+  }
+
+
+  p {
+    font-size: 16px;
+  }
+
+  .parallax {
+    /* The image used */
+    background-image: url("img/paralax.png");
+
+    /* Set a specific height */
+    min-height: 500px; 
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+  .dos{
+    font: 20px Montserrat, sans-serif;
+    font-size: 1em;
+
+  }
+
+  .logofijo{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 20%;
+  }
+
+  .logofijochico{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 30%;
+    height: 20%;
+  }
+   
+  
+
+@media (max-width: 700px){
+  .logofijo{
+    visibility: hidden;   
+
+  }
+
+  h5{
+    font-size: 3em;
+    font-family: 'Lato', sans-serif;
+    font-family: 'Merriweather', serif;
+    font-family: 'Fredericka the Great', cursive;
+    display: flex;
+    flex-direction: column;
+
+}
+
+  }
+  
+
+  header h2{
+    margin-bottom: 15px;
+  
+}
+
+  .margin {
+    margin-bottom: 45px;
+  }
+
+  #contvid {
+    margin-bottom: 45px;
+    background-color: $colorpaleta3;
+
+  }
+
+  .bg-1 { 
+      background-color: $colorpaleta1; 
+      color: $colorpaleta2;
+  }
+  .bg-2 { 
+      background-color: #455a64; /* Dark Blue */
+      color: $colorpaleta2;
+  }
+  .bg-3 { 
+      background-color: $colorpaleta2; /* White */
+      color: #555555;
+      padding-top: 30px;
+  }
+  .bg-4 { 
+      background-color: $colorpaleta3; /* Black Gray */
+      color: $colorpaleta2;
+  }
+  .container-fluid {
+      padding-top: 30px;
+      padding-bottom: 70px;
+
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
