@@ -1,5 +1,6 @@
 body {
-      font: 20px Montserrat, sans-serif;
+       /* font: 20px Montserrat, sans-serif; */
+      font-family: $fontprimaria;
       line-height: 1.8;
       color: #f5f6f7;
   }
@@ -10,25 +11,22 @@ body {
 
   a{
     color: red;
-    font-size: 1.8em;
-    font-family: 'Anton', sans-serif;
+    font-size: 1.6em;
+    font-family: $fontprimaria;
+   /* font-family: 'Anton', sans-serif; */
   }
 
   h3{
     font-size: 4em;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: $fontprimaria;
     display: flex;
     align-items: flex-end;
   
   }
 
-h5{
+  h5{
     font-size: 9em;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: $fontprimaria;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -37,9 +35,7 @@ h5{
 
   h4{
     font-size: 1em;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: $fontprimaria;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -53,7 +49,7 @@ h5{
 
   .parallax {
     /* The image used */
-    background-image: url("img/paralax.png");
+    background-image: url("../img/paralax.png");
 
     /* Set a specific height */
     min-height: 500px; 
@@ -79,12 +75,10 @@ h5{
     height: 20%;
   }
 
-  .logofijochico{
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 30%;
-    height: 20%;
+  #header_logo{
+    font-size: 1000px;
+    font-family: $fontprimaria;
+    
   }
    
   
@@ -97,9 +91,7 @@ h5{
 
   h5{
     font-size: 3em;
-    font-family: 'Lato', sans-serif;
-    font-family: 'Merriweather', serif;
-    font-family: 'Fredericka the Great', cursive;
+    font-family: $fontprimaria;
     display: flex;
     flex-direction: column;
 
